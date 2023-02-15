@@ -36,10 +36,10 @@ public class Matrix {
         Matrix res = new Matrix(this.size);
         for (int i = 0; i < this.size; i++) {
             for (int j = 0; j < this.size; j++) {
-                res.matrix[i][j] = 0;
+                int summa = 0;
                 for (int k = 0; k < this.size; k++)
-                    res.matrix[i][j] += this.matrix[i][k] * tmp.matrix[k][j];
-
+                    summa += this.matrix[i][k] * tmp.matrix[k][j];
+                res.matrix[i][j] = summa;
             }
         }
         return res;
