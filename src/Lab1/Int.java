@@ -7,11 +7,6 @@ public class Int {
     public Int() {
       this.value = 0;
     }
-  
-    public Int(int value) {
-      this.value = value;
-    }
-
 
     public void increment() {
       this.value += 1;

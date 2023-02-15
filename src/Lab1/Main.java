@@ -3,11 +3,15 @@ package Lab1;
 public class Main{
     public static void main(String[] args) {
         
-        Int x = new Int(1);
-        Int y = new Int(11);
+        Int x = new Int();
+        Int y = new Int();
+
+        x.increment();
+        for(int i = 0; i<11; i++){
+            y.increment();
+        }
         System.out.println("x = " + x);
         System.out.println("y = " + y + "\n");
-
         System.out.print("x = x + y" + "\nx = ");
         x.add(y);
         System.out.println(x.toString() + "\n");
@@ -25,7 +29,3 @@ public class Main{
         System.out.println(x.toString() + "\n");
     }
 }
-
-//Команды для запуска из командной строки:
-//javac -sourcepath ./src -d out src/Lab1/Main.java
-//java -classpath ./out Lab1.Main
