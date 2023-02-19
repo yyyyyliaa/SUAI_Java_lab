@@ -13,7 +13,7 @@ public class Interval {
         if(interval.charAt(0) == '[') leftLimit = interval.charAt(1) - '0';
         else leftLimit = interval.charAt(1) - '0' - 1;
 
-        if(interval.charAt(4) == '[') rightLimit = interval.charAt(3) - '0';
+        if(interval.charAt(4) == ']') rightLimit = interval.charAt(3) - '0';
         else rightLimit = interval.charAt(3) - '0' - 1;
     }
 

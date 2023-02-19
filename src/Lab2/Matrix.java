@@ -4,30 +4,26 @@ import java.util.Arrays;
 
 public class Matrix {
     private final int size;
-    private final int[][] matrix;
+    private final int[][] data;
 
     public Matrix(int size){
         this.size = size;
-        this.matrix = new int[size][size];
+        this.data = new int[size][size];
         for(int i = 0; i<size; i++){
-            for(int j = 0; j<size; j++){
-                if(i == j)
-                    this.matrix[i][j] = 1;
-                else this.matrix[i][j] = 0;
-            }
+            this.data[i][i] = 1;
         }
     }
     public void setElement(int row, int column, int value){
-        this.matrix[row][column] = value;
+        this.data[row][column] = value;
     }
     public long getElement(int row, int column){
-        return this.matrix[row][column];
+        return this.data[row][column];
     }
     public Matrix sum(Matrix tmp){
         Matrix res = new Matrix(this.size);
         for(int i = 0; i<size; i++){
             for(int j = 0; j<size; j++)
-                res.matrix[i][j] = this.matrix[i][j] + tmp.matrix[i][j];
+                res.data[i][j] = this.data[i][j] + tmp.data[i][j];
         }
         return res;
     }
@@ -38,8 +34,8 @@ public class Matrix {
             for (int j = 0; j < this.size; j++) {
                 int summa = 0;
                 for (int k = 0; k < this.size; k++)
-                    summa += this.matrix[i][k] * tmp.matrix[k][j];
-                res.matrix[i][j] = summa;
+                    summa += this.data[i][k] * tmp.data[k][j];
+                res.data[i][j] = summa;
             }
         }
         return res;
@@ -48,7 +44,7 @@ public class Matrix {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (int[] row : this.matrix) {
+        for (int[] row : this.data) {
             sb.append(Arrays.toString(row));
             sb.append("\n");
         }
