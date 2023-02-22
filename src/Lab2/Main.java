@@ -11,10 +11,12 @@ public class Main {
         System.out.println("Source matrix:");
         System.out.println(matrix);
 
+        Matrix source = matrix;
+
         for (int i = 2; i<=10; i++){
-            matrix = matrix.product(matrix);
+            matrix = matrix.product(source);
             System.out.println("Matrix in " + i + " power:");
-            System.out.println(matrix);
+            System.out.println(matrix.toString());
         }
 
 
