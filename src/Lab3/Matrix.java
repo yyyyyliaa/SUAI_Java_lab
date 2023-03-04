@@ -13,6 +13,14 @@ public class Matrix {
         this.data = new int[rows][columns];
     }
 
+    public int getRowsCount(){
+        return rows;
+    }
+
+    public int getColumnsCount(){
+        return columns;
+    }
+
     public Matrix(int size) {
         this(size, size);
     }
