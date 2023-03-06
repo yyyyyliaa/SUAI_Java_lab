@@ -29,5 +29,6 @@ public class Main {
 
         System.out.println("List1 equals List2: " + listWithDuplicates.equals(listWithoutDuplicates));
 
+
     }
 }
