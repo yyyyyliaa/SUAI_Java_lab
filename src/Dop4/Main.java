@@ -12,7 +12,5 @@ public class Main {
         System.out.println("List: " + list.toString() );
         System.out.println("Index of 2: " + list.find(2));
         System.out.println("Index of 6: " + list.find(6));
-
-
     }
 }

@@ -85,6 +85,5 @@ public class SortedIntegerList {
 
         sb.append("]");
         return sb.toString();
-
     }
 }
