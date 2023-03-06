@@ -27,6 +27,7 @@ public class SortedIntegerList {
     }
 
     public void remove(int number){
+
         this.data.removeFirstOccurrence(number);
     }
     @Override
@@ -42,11 +43,11 @@ public class SortedIntegerList {
 
         if (this.data.size() != tmp.data.size()) return false;
 
-        ListIterator<Integer> iterator1 = this.data.listIterator();
-        ListIterator<Integer> iterator2 = tmp.data.listIterator();
+        ListIterator<Integer> iteratorThis = this.data.listIterator();
+        ListIterator<Integer> iteratorTmp = tmp.data.listIterator();
 
-        while (iterator1.hasNext()) {
-            if (!(iterator1.next().equals(iterator2.next()))) return false;
+        while (iteratorThis.hasNext()) {
+            if (!(iteratorThis.next().equals(iteratorTmp.next()))) return false;
         }
         return true;
     }

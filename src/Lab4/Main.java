@@ -28,5 +28,6 @@ public class Main {
         System.out.println("List2 after double remove 1: " + listWithDuplicates.toString());
 
         System.out.println("List1 equals List2: " + listWithDuplicates.equals(listWithoutDuplicates));
+
     }
 }
