@@ -42,6 +42,5 @@ public class Main {
         System.out.println("Product of sparse matrices: ");
         SparseMatrix productSparseMatrix = new SparseMatrix(matrixSize);
         productSparseMatrix = sourceSparseMatrix.product(sourceSparseMatrix);
-
     }
 }

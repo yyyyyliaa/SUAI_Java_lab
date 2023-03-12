@@ -8,4 +8,5 @@ public interface IMatrix {
     public double getElement(int row, int column);
 
     public void setElement(int row, int column, double value);
+
 }

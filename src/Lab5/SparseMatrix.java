@@ -16,9 +16,9 @@ public class SparseMatrix extends Matrix {
     }
 
     public double getElement(int row, int column) {
-        for (SparseMatrixRow currentRow : rows) {
-            if (currentRow.getRow() == row) {
-                for (SparseMatrixElement element : currentRow.getElements()) {
+        for (SparseMatrixRow curRow : rows) {
+            if (curRow.getRow() == row) {
+                for (SparseMatrixElement element : curRow.getElements()) {
                     if (element.getColumn() == column) {
                         return element.getValue();
                     }

@@ -46,3 +46,4 @@ public class UsualMatrix extends Matrix {
         return sb.toString();
     }
 }
+

@@ -16,4 +16,5 @@ public class SquareMatrix extends UsualMatrix {
     public Matrix createMatrix(int rows, int columns) {
         return new SquareMatrix(rows);
     }
+
 }

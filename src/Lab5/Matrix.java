@@ -100,4 +100,5 @@ public abstract class Matrix implements IMatrix {
         return true;
     }
     protected abstract Matrix createMatrix(int rows, int columns);
+
 }
