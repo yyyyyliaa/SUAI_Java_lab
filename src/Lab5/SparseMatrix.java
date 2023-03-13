@@ -59,9 +59,20 @@ public class SparseMatrix extends Matrix {
         return new SparseMatrix(rows, columns);
     }
 
-    @Override //TODO: перекрыть toString() для класса SparseMatrix
+    @Override
     public String toString(){
+        double[][] data = new double[super.getRows()][super.getColumns()];
+        for(SparseMatrixRow row : rows){
+            for(SparseMatrixElement el : row.getElements()){
+                data[row.getRow()][el.getColumn()] = el.getValue();
+            }
+        }
+
         StringBuilder sb = new StringBuilder();
+        for (double[] row : data) {
+            sb.append(Arrays.toString(row));
+            sb.append("\n");
+        }
 
         return sb.toString();
     }

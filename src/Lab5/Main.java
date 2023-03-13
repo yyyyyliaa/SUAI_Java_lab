@@ -20,16 +20,18 @@ public class Main {
         System.out.println(sourceSquareMatrix.toString() + "\n");
 
         System.out.println("Source sparse matrix:");
+        System.out.println(sourceSparseMatrix.toString());
 
 
         System.out.println("Sum of Square matrices:");
         SquareMatrix sumSquareMatrix = new SquareMatrix(matrixSize);
         sumSquareMatrix = sourceSquareMatrix.add(sourceSquareMatrix);
-        System.out.println(sumSquareMatrix.toString()+ "\n");
+        System.out.println(sumSquareMatrix.toString() + "\n");
 
         System.out.println("Sum of Sparse matrices: ");
         SparseMatrix sumSparseMatrix = new SparseMatrix(matrixSize);
         sumSparseMatrix = sourceSparseMatrix.add(sourceSparseMatrix);
+        System.out.println(sumSparseMatrix.toString() + "\n");
 
         System.out.print("Source square matrix equals sum square matrix: ");
         System.out.println(sourceSquareMatrix.equals((Matrix) sumSquareMatrix)+ "\n");
@@ -42,5 +44,6 @@ public class Main {
         System.out.println("Product of sparse matrices: ");
         SparseMatrix productSparseMatrix = new SparseMatrix(matrixSize);
         productSparseMatrix = sourceSparseMatrix.product(sourceSparseMatrix);
+        System.out.println(productSparseMatrix.toString() + "\n");
     }
 }
