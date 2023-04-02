@@ -10,6 +10,14 @@ public abstract class Matrix implements IMatrix {
         this.columns = columns;
     }
 
+    public void randomize() {
+        for (int i = 0; i < getRows(); i++) {
+            for (int j = 0; j < getColumns(); j++) {
+                setElement(i, j, Math.random() * 1000);
+            }
+        }
+    }
+
     public int getRows() {
         return rows;
     }
