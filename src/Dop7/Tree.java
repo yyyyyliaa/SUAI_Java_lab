@@ -57,21 +57,6 @@ public class Tree {
         }
     }
 
-    public int deepTree(){
-        int deepR = 0;
-        int deepL= 0;
-
-        if (this.l != null) {
-            deepL = this.l.deepTree();
-            deepL++;
-
-        }
-        if (this.r != null) {
-            deepR = this.r.deepTree();
-            deepR++;
-        }
-        return Math.max(deepL,deepR);
-    }
 
     public void printTree(int shift){
         if(this.l != null) this.l.printTree(shift+10);
