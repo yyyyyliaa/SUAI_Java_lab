@@ -1,7 +1,7 @@
 package Lab8;
 
 public class ParallelMatrixProduct {
-        private Thread[] threads;
+        private final Thread[] threads;
 
         public ParallelMatrixProduct(int threadsCount) {
             threads = new Thread[threadsCount];
@@ -27,9 +27,9 @@ public class ParallelMatrixProduct {
                 threads[i].start();
             }
 
-            for (int i = 0; i < threads.length; i++) {
+            for (Thread thread : threads) {
                 try {
-                    threads[i].join();
+                    thread.join();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
