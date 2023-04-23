@@ -28,9 +28,9 @@ public class Main {
 
 
         try {
-            sourceSettings.saveToTextFile("/Users/yyyyyliaa/SUAI_Java_lab/src/Lab7/test.txt");
+            sourceSettings.saveToTextFile("/Users/yyyyyliaa/SUAI_Java_lab/src/Lab7/out.txt");
             Settings settingsFromTextFile = new Settings();
-            settingsFromTextFile.loadFromTextFile("/Users/yyyyyliaa/SUAI_Java_lab/src/Lab7/test.txt");
+            settingsFromTextFile.loadFromTextFile("/Users/yyyyyliaa/SUAI_Java_lab/src/Lab7/out.txt");
             System.out.println("Source settings: " + sourceSettings);
             System.out.print("Settings from text file: ");
             System.out.println(settingsFromTextFile);
