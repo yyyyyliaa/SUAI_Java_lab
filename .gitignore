@@ -2,7 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/
-!**/src/test
+!**/src/test/*
 **.xml
 **.txt
 **.bin
@@ -31,3 +31,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/src/test/Practice/Board/*
