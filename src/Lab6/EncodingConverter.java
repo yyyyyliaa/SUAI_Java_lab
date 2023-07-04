@@ -17,7 +17,7 @@ public class EncodingConverter {
 //            return;
 //        }
 
-        String[] arg = {"/Users/yyyyyliaa/SUAI_Java_lab/src/Lab6/in.txt", "/Users/yyyyyliaa/SUAI_Java_lab/src/Lab6/out.txt", "utf8", "MacRoman"};
+        String[] arg = {"/Users/yyyyyliaa/SUAI_Java_lab/src/Lab6/in.txt", "/Users/yyyyyliaa/SUAI_Java_lab/src/Lab6/out.txt", "CP1251", "utf8"};
 
 
         String[] encodings = Charset.availableCharsets().keySet().toArray(new String[0]);

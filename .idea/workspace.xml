@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f74975f-3944-4292-857d-347a308da6ef" name="Changes" comment="finished dop6">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2f74975f-3944-4292-857d-347a308da6ef" name="Changes" comment="an attempt to make the attraction flow">
+      <change afterPath="$PROJECT_DIR$/src/test/Deadlock/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ReaderWriter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ReaderWriter/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ReaderWriter/ReaderWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab6/EncodingConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/EncodingConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab6/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab6/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AmusementPark/AmusementPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AmusementPark/AmusementPark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.EditorConfig&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -81,11 +83,11 @@
       <recent name="$PROJECT_DIR$/src/Lab3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.AmusementPark" />
+      <recent name="Dop8" />
+      <recent name="Lab8" />
       <recent name="Dop6" />
       <recent name="Lab5" />
-      <recent name="Dop4" />
-      <recent name="Dop2" />
-      <recent name="Lab3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -258,7 +260,112 @@
       <option name="project" value="LOCAL" />
       <updated>1679329934371</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="minor changes">
+      <created>1679769667430</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679769667430</updated>
+    </task>
+    <task id="LOCAL-00025" summary="upd .gitignore">
+      <created>1679844125012</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679844125012</updated>
+    </task>
+    <task id="LOCAL-00026" summary="finished lab7">
+      <created>1679855299887</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679855299887</updated>
+    </task>
+    <task id="LOCAL-00027" summary="finished dop7">
+      <created>1680459469128</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1680459469128</updated>
+    </task>
+    <task id="LOCAL-00028" summary="finished lab8">
+      <created>1680459490294</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680459490294</updated>
+    </task>
+    <task id="LOCAL-00029" summary="minor changes">
+      <created>1680459541703</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1680459541703</updated>
+    </task>
+    <task id="LOCAL-00030" summary="finished dop7">
+      <created>1680872183806</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1680872183806</updated>
+    </task>
+    <task id="LOCAL-00031" summary="finished dop8">
+      <created>1681075343987</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681075343987</updated>
+    </task>
+    <task id="LOCAL-00032" summary="finished lab9">
+      <created>1681075437236</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681075437236</updated>
+    </task>
+    <task id="LOCAL-00033" summary="minor changes in Main">
+      <created>1681076096264</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681076096264</updated>
+    </task>
+    <task id="LOCAL-00034" summary="minor changes">
+      <created>1681503435277</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681503435277</updated>
+    </task>
+    <task id="LOCAL-00035" summary="minor changes in Main">
+      <created>1681837342317</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681837342318</updated>
+    </task>
+    <task id="LOCAL-00036" summary="finished dop9">
+      <created>1682262607674</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682262607674</updated>
+    </task>
+    <task id="LOCAL-00037" summary="finished dop">
+      <created>1682281094321</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682281094322</updated>
+    </task>
+    <task id="LOCAL-00038" summary="an attempt to make the attraction flow">
+      <created>1684110380568</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684110380568</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,8 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finished lab1" />
-    <MESSAGE value="upd .gitignore" />
     <MESSAGE value="finished lab2" />
     <MESSAGE value="removed constructor" />
     <MESSAGE value="minor changes in &quot;product&quot; function" />
@@ -294,7 +399,6 @@
     <MESSAGE value="finished lab3" />
     <MESSAGE value="finished dop2" />
     <MESSAGE value="finished dop3" />
-    <MESSAGE value="minor changes" />
     <MESSAGE value="finished lab4" />
     <MESSAGE value="finished dop4" />
     <MESSAGE value="i need override toString() for SparseMatrix" />
@@ -302,6 +406,37 @@
     <MESSAGE value="finished dop5" />
     <MESSAGE value="finished lab6" />
     <MESSAGE value="finished dop6" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished dop6" />
+    <MESSAGE value="upd .gitignore" />
+    <MESSAGE value="finished lab7" />
+    <MESSAGE value="finished lab8" />
+    <MESSAGE value="finished dop7" />
+    <MESSAGE value="finished dop8" />
+    <MESSAGE value="finished lab9" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="minor changes in Main" />
+    <MESSAGE value="finished dop9" />
+    <MESSAGE value="finished dop" />
+    <MESSAGE value="an attempt to make the attraction flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="an attempt to make the attraction flow" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/BlockEncrypt/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/AmusementPark/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
